@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TextView
+            android:id="@+id/testView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello World, MyActivity"/>
+    <Button
+            android:onClick="doSomething"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click me!"
+            android:id="@+id/button"/>
+
+    <Button
+            android:onClick="doOpen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click me to open dialog!"
+            android:id="@+id/button2"/>
+
+    <TextView
+            android:id="@+id/testView2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="S"/>
+</LinearLayout>
+
